@@ -14,6 +14,7 @@ import com.example.islamic.databinding.FragmentTasbehBinding
 class TasbehFragment:Fragment() {
     private var counter = 0
     private var dhikerIndex = 0
+    var des : Int = 50
     private lateinit var azkarList : MutableList<String>
     
     private lateinit var viewBinding: FragmentTasbehBinding
