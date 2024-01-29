@@ -8,6 +8,9 @@ import androidx.fragment.app.Fragment
 import com.example.islamic.R
 import com.example.islamic.databinding.FragmentTasbehBinding
 
+/**
+ * developer branch*/
+
 class TasbehFragment:Fragment() {
     private var counter = 0
     private var dhikerIndex = 0
@@ -21,7 +24,9 @@ class TasbehFragment:Fragment() {
     ): View {
         viewBinding = FragmentTasbehBinding.inflate(inflater,container,false)
         return viewBinding.root
+
     }
+
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
