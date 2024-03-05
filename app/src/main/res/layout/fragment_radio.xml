@@ -8,14 +8,55 @@
 
     <ImageView
         android:id="@+id/main_radio_logo"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
         android:src="@drawable/radio_image"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginTop="-150dp"/>
+    <TextView
+        android:id="@+id/sura_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quran_radio"
+        app:layout_constraintTop_toBottomOf="@id/main_radio_logo"
+        app:layout_constraintStart_toStartOf="@id/main_radio_logo"
+        app:layout_constraintEnd_toEndOf="@id/main_radio_logo"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:id="@+id/back_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/play_back"
+        app:layout_constraintStart_toStartOf="@id/main_radio_logo"
+        app:layout_constraintTop_toBottomOf="@id/sura_name"
+        android:layout_margin="50dp"/>
+
+    <ImageView
+        android:id="@+id/next_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/play_next"
+        app:layout_constraintEnd_toEndOf="@id/main_radio_logo"
+        app:layout_constraintTop_toBottomOf="@id/sura_name"
+        android:layout_margin="50dp"/>
+
+    <ImageView
+        android:id="@+id/play_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/on_off_button"
+        app:layout_constraintStart_toStartOf="@id/main_radio_logo"
+        app:layout_constraintEnd_toEndOf="@id/main_radio_logo"
+        app:layout_constraintTop_toBottomOf="@id/sura_name"
+        android:layout_margin="50dp"/>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

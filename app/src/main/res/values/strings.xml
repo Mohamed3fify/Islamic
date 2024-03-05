@@ -4,9 +4,8 @@
         <item> الحمد الله </item>
         <item> لا اله الا الله </item>
         <item> الله اكبر  </item>
-
-
     </array>
+
     <string name="app_name">Islamic</string>
     <string name="hadeth">Hadeth</string>
     <string name="sebha">Sebha</string>
@@ -18,5 +17,6 @@
 
     <string name="number_of_Dhiker" >عدد التسبيحات</string>
     <string name="sobhah_alla">سبحان الله</string>
+    <string name="quran_radio">اذاعة القرائن الكريم</string>
 
 </resources>
